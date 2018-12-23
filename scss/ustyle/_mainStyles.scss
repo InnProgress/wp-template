@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.clear, .clear::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
